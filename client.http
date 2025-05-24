@@ -1,0 +1,13 @@
+// default route
+
+###
+GET http://localhost:5000/
+
+###
+POST http://localhost:5000/user
+content-type: application/json
+
+{
+    "fullname": "Denis",
+    "email": "denis@gmail.com"
+}
