@@ -9,7 +9,7 @@ pnpm init
 ### Install Dependencies
 
 ```
-pnpm add express dotenv
+pnpm add express pg dotenv
 pnpm add -D typescript tsx @types/express @types/node
 ```
 
@@ -120,7 +120,3 @@ export const PORT = process.env.PORT || 5000;
 export const NODE_ENV = process.env.NODE_ENV || 'development';
 
 ```
-
-### Folder Structure Recap
-
-![1747856321649](image/README/1747856321649.png)
